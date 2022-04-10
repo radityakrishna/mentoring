@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:helpkuy/screens/login.dart';
+import 'package:helpkuy/screens/login_error.dart';
+import 'package:helpkuy/screens/login_filled_loading.dart';
 import 'package:helpkuy/screens/onboarding.dart';
 import 'package:helpkuy/screens/splashscreen.dart';
 
@@ -26,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: OnBoarding(),
+      home: LoginError(),
     );
   }
 }
